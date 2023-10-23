@@ -7,7 +7,8 @@ answers = [
 ]
 
 ANS = random.randint(1, len(answers) - 1)
-sleep(1)
-print("...")
+for i in range(0,3):
+    sleep(1)
+    print("...")
 
 print(f"The answer to '{question}' is {answers[ANS]}")
